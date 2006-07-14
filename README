@@ -1,0 +1,93 @@
+perl-Gnome2-Vte
+-------------------------------------------
+Perl bindings for vte, the GNOME Virtual Terminal Emulator.
+
+Runtime requirements:
+  cygwin-1.5.20-1
+  gtk2-x11-2.8.19-1
+  perl-5.8.7-5
+  perl-Glib-1.120-1
+  perl-Gtk2-1.122-1
+  vte-0.12.2-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.20-1
+  binutils-20050610-1
+  cygport-0.2.2-1
+  gcc-core-3.4.4-1
+  make-3.80-1
+  perl-5.8.7-5
+  perl-ExtUtils-Depends-0.205-1
+  perl-ExtUtils-PkgConfig-1.07-1
+
+Canonical homepage:
+  http://gtk2-perl.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/gtk2-perl/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gnome2-Vte-0.06-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Gnome2-Vte-0.06-1.cygport all
+
+This will create:
+  /usr/src/perl-Gnome2-Vte-0.06-1-src.tar.bz2
+  /usr/src/perl-Gnome2-Vte-0.06-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Gnome2-Vte.sh
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Vte/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Vte/Install/vte2perl-autogen.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Vte/Install/vte2perl-version.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Vte/Install/vte2perl.h
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Vte/Install/vte2perl.typemap
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Vte/index.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Vte/main.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Vte/Terminal.pod
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/Gnome2/Vte.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Vte/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Vte/Vte.bs
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Vte/Vte.dll
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Gnome2/Vte/libVte.dll.a
+  /usr/share/doc/Cygwin/perl-Gnome2-Vte-0.06.README
+  /usr/share/doc/perl-Gnome2-Vte-0.06/ChangeLog
+  /usr/share/doc/perl-Gnome2-Vte-0.06/LICENSE
+  /usr/share/doc/perl-Gnome2-Vte-0.06/NEWS
+  /usr/share/doc/perl-Gnome2-Vte-0.06/README
+  /usr/share/man/man3/Gnome2.Vte.3pm.gz
+  /usr/share/man/man3/Gnome2.Vte.index.3pm.gz
+  /usr/share/man/man3/Gnome2.Vte.main.3pm.gz
+  /usr/share/man/man3/Gnome2.Vte.Terminal.3pm.gz
+  /usr/share/perl/cygwin-pods/Gnome2-Vte.pod
+
+--------------------
+
+Port Notes:
+
+----- version 0.06-1 -----
+Version bump, built with cygport.
+
+----- version 0.05-1 -----
+Version bump.
+
+----- version 0.04-3 -----
+Rebuilt for perl-5.8.7 with --enable-auto-image-base.
+
+----- version 0.04-2 -----
+Rebuilt for perl-5.8.6.
+
+----- version 0.04-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
