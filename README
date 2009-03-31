@@ -3,24 +3,25 @@ perl-Gnome2-Vte
 Perl bindings for vte, the GNOME Virtual Terminal Emulator.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  gdk-pixbuf2-2.12.12-1
-  glib2-2.16.6-1
-  gtk2-x11-2.12.12-1
-  pango-1.20.5-1
+  cygwin-1.7.0-44
+  libgcc1-4.3.2-2
+  libgdk-pixbuf2.0_0-2.16.0-1
+  libglib2.0_0-2.20.0-1
+  libgtk2.0_0-2.16.0-1
+  libpango1.0_0-1.24.0-1
+  libvte9-0.20.0-1
   perl-5.10.0-5
-  perl-Glib-1.183-1
-  perl-Gtk2-1.183-1
-  vte-0.16.14-1
+  perl-Glib-1.220-1
+  perl-Gtk2-1.220-1
 
 Build requirements:
 (besides corresponding -devel packages)
   binutils-20080624-2
-  cygport-0.4.2-1
-  gcc-core-3.4.4-3
-  make-3.81-1
+  cygport-0.9.6-1
+  gcc4-core-4.3.2-2
+  make-3.81-2
   perl-ExtUtils-Depends-0.301-1
-  perl-ExtUtils-PkgConfig-1.11-1
+  perl-ExtUtils-PkgConfig-1.12-1
 
 Canonical homepage:
   http://gtk2-perl.sourceforge.net/
@@ -56,10 +57,10 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Vte/main.pod
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/Vte/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/Vte/Vte.dll
-  /usr/share/doc/perl-Gnome2-Vte-0.09/ChangeLog
-  /usr/share/doc/perl-Gnome2-Vte-0.09/LICENSE
-  /usr/share/doc/perl-Gnome2-Vte-0.09/NEWS
-  /usr/share/doc/perl-Gnome2-Vte-0.09/README
+  /usr/share/doc/perl-Gnome2-Vte/ChangeLog
+  /usr/share/doc/perl-Gnome2-Vte/LICENSE
+  /usr/share/doc/perl-Gnome2-Vte/NEWS
+  /usr/share/doc/perl-Gnome2-Vte/README
   /usr/share/man/man3/Gnome2.Vte.3pm.gz
   /usr/share/man/man3/Gnome2.Vte.Terminal.3pm.gz
   /usr/share/man/man3/Gnome2.Vte.index.3pm.gz
@@ -69,29 +70,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.09-1 -----
-Version bump.
-
------ version 0.08-2 -----
-Rebuilt for perl-5.10.
-
------ version 0.08-1 -----
-Version bump for vte-0.14.
-
------ version 0.06-1 -----
-Version bump, built with cygport.
-
------ version 0.05-1 -----
-Version bump.
-
------ version 0.04-3 -----
-Rebuilt for perl-5.8.7 with --enable-auto-image-base.
-
------ version 0.04-2 -----
-Rebuilt for perl-5.8.6.
-
------ version 0.04-1 -----
-Initial release for Cygwin.
+----- version 0.09-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
