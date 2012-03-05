@@ -1,4 +1,4 @@
 category: Perl Gnome
-requires: libgcc1 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libpango1.0_0 libvte9 perl perl-Glib perl-Gtk2
+requires: libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libpango1.0_0 libvte9 perl perl-Glib perl-Gtk2
 sdesc: "Perl bindings for the GNOME Virtual Terminal Emulator"
 ldesc: "Perl bindings for vte, the GNOME Virtual Terminal Emulator"
