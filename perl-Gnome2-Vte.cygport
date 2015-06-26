@@ -2,7 +2,7 @@ inherit gtk2-perl
 
 NAME="perl-Gnome2-Vte"
 VERSION=0.11
-RELEASE=1
+RELEASE=2
 CATEGORY="Perl"
 SUMMARY="Perl bindings for the GNOME Virtual Terminal Emulator"
 DESCRIPTION="Perl bindings for vte, the GNOME Virtual Terminal Emulator"
